@@ -28,5 +28,4 @@ graph TD
     D -->|Spark Processing| E[Data Validation]
     E -->|Clean Data| F[S3 Processed Zone<br>/processed/albums/<br>/processed/artists/<br>/processed/songs/]
     F -->|Snowpipe Auto-Ingest| G[Snowflake<br>ANALYTICS.SPOTIFY]
-    G --> H[Tableau/Looker]
-    G --> I[Data Science Models]
+    
