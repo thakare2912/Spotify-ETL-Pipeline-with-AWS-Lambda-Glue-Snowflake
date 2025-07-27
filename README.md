@@ -1,14 +1,8 @@
 # Spotify ETL Pipeline with AWS Lambda, Glue & Snowflake
 
-![ETL Pipeline](https://img.shields.io/badge/ETL-Pipeline-blue) 
-![AWS](https://img.shields.io/badge/AWS-Lambda%20%7C%20Glue%20%7C%20S3-orange)
-![Snowflake](https://img.shields.io/badge/Snowflake-Data%20Warehouse-blue)
-![PySpark](https://img.shields.io/badge/PySpark-3.1+-yellow)
-![Python](https://img.shields.io/badge/Python-3.9+-blue)
-
 An end-to-end data pipeline that extracts Spotify playlist data, transforms it using PySpark, and loads it into Snowflake for analytics.
 
-## 🚀 Features
+## Features
 
 - **Real-time data extraction** from Spotify API using AWS Lambda
 - **Scalable data processing** with AWS Glue (PySpark)
@@ -18,7 +12,7 @@ An end-to-end data pipeline that extracts Spotify playlist data, transforms it u
 - **Data quality checks** with PySpark validations
 - **Time-based partitioning** for efficient data management
 
-## 📊 Architecture Deep Dive
+## Architecture Deep Dive
 
 ```mermaid
 graph TD
